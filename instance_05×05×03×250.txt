@@ -1,0 +1,133 @@
+The number of factories:
+5
+
+The total number of machines:
+5
+
+The number of workers:
+3
+
+The number of jobs:
+250
+
+Transfer time between different factories:
+(Where rows denote factories: 1 to 5 and columns denote factories: 1 to 5.)
+0	13	40	25	32
+13	0	27	12	22
+40	27	0	15	17
+25	12	15	0	14
+32	22	17	14	0
+
+The energy consumption cost of machines in factory 1.
+(Where columns denote machines: 1 to 1.)
+4.9
+The energy consumption cost of machines in factory 2.
+(Where columns denote machines: 1 to 1.)
+4.8
+The energy consumption cost of machines in factory 3.
+(Where columns denote machines: 1 to 1.)
+1.4
+The energy consumption cost of machines in factory 4.
+(Where columns denote machines: 1 to 1.)
+3.7
+The energy consumption cost of machines in factory 5.
+(Where columns denote machines: 1 to 1.)
+1.3
+
+The processing time of jobs on different machines of factory 1.
+(Where rows denote machines: 1 to 1 and columns denote jobs: 1 to 250.)
+15	17	10	14	13	18	19	12	28	23	27	23	17	28	27	25	29	20	29	21	29	17	28	27	25	27	30	11	12	22	27	24	12	14	20	16	20	24	21	22	27	24	23	12	25	30	14	23	14	18	15	11	28	24	14	23	22	30	25	18	21	11	23	16	13	14	20	22	10	19	19	13	13	22	11	28	11	15	19	19	30	18	18	18	20	23	16	10	24	20	29	24	18	27	26	17	29	26	24	30	30	25	20	24	21	10	25	17	22	14	13	30	12	18	21	17	27	28	22	13	15	29	11	29	20	10	30	14	18	24	26	19	26	12	26	30	29	11	15	10	25	23	29	25	11	24	27	18	23	24	23	28	18	30	16	22	28	28	11	28	23	19	16	22	17	15	22	18	25	17	24	26	15	28	29	15	28	10	24	18	10	28	10	17	24	13	12	28	24	17	27	22	19	29	29	18	29	11	30	30	22	30	21	19	21	13	21	27	26	13	26	24	30	27	26	11	25	29	20	30	20	27	12	15	26	21	23	25	20	13	19	20	14	12	27	27	17	28	19	26	19	18	11	27	13	28	19	21	11	22
+The processing time of jobs on different machines of factory 2.
+(Where rows denote machines: 1 to 1 and columns denote jobs: 1 to 250.)
+23	21	23	25	27	14	11	30	20	30	23	26	27	27	19	28	11	12	10	26	20	18	11	13	20	21	26	27	25	26	26	15	15	20	11	30	20	17	11	20	14	30	11	24	12	25	21	23	20	23	27	21	19	16	13	11	27	13	10	14	30	28	12	11	15	10	24	24	24	14	23	11	10	29	29	22	30	15	19	20	28	19	20	21	25	24	17	15	28	15	18	17	28	28	24	24	24	14	10	22	29	15	30	15	19	12	15	25	14	12	25	24	10	15	28	24	13	21	27	17	17	22	28	17	20	17	23	15	22	28	11	11	18	21	14	15	17	28	28	19	18	12	26	21	13	19	24	13	18	21	29	14	20	20	23	27	26	28	14	20	10	21	16	26	30	15	24	22	30	19	27	21	14	17	21	28	26	24	10	28	16	24	22	15	11	10	13	30	20	20	20	16	30	11	23	29	12	30	23	11	16	13	12	13	10	24	22	29	11	22	26	14	25	26	26	28	25	16	17	14	18	23	12	19	24	18	14	24	16	10	13	18	19	27	26	16	18	22	25	30	19	29	18	27	14	15	23	21	11	19
+The processing time of jobs on different machines of factory 3.
+(Where rows denote machines: 1 to 1 and columns denote jobs: 1 to 250.)
+24	16	14	11	26	14	24	14	28	19	15	21	18	11	17	22	21	20	12	16	24	25	23	28	13	25	28	20	29	28	22	27	24	23	17	28	27	30	14	20	25	24	16	30	19	29	20	13	13	16	23	12	29	30	15	27	25	26	13	19	21	15	27	11	20	19	28	28	16	22	10	30	28	26	26	29	23	27	19	18	12	27	23	22	27	30	18	22	25	23	19	10	29	21	19	12	23	18	15	30	21	11	13	27	12	29	15	23	16	28	17	28	24	16	10	14	19	28	14	29	27	13	16	17	21	26	28	19	29	29	23	25	27	26	17	23	30	14	15	13	18	11	25	21	10	22	14	14	10	12	22	14	12	26	21	12	23	29	18	30	23	15	24	18	27	11	20	21	18	23	30	20	24	18	26	18	22	26	17	18	16	12	18	29	30	11	25	18	29	25	17	30	28	23	22	22	20	24	19	20	14	27	14	14	22	14	30	23	18	29	16	23	12	13	21	22	12	29	24	11	26	25	25	26	10	28	17	14	25	16	11	16	19	22	17	26	15	30	23	28	25	30	11	12	18	23	28	28	26	20
+The processing time of jobs on different machines of factory 4.
+(Where rows denote machines: 1 to 1 and columns denote jobs: 1 to 250.)
+12	28	12	28	19	18	30	15	27	24	29	15	17	23	21	16	17	23	18	20	19	13	26	13	14	22	18	23	15	18	20	13	11	13	13	25	19	23	22	13	19	27	25	30	21	21	22	24	12	24	25	27	29	16	28	30	21	29	27	11	21	27	15	10	26	15	19	27	13	12	25	15	26	12	16	16	20	12	12	13	13	25	23	27	11	11	19	29	29	27	26	10	12	21	23	28	22	18	19	30	15	16	15	27	16	12	23	10	13	26	11	29	13	26	15	30	12	16	25	23	10	30	29	25	20	25	16	19	14	27	19	21	18	14	28	19	17	19	16	30	14	27	19	16	28	18	22	30	28	22	21	13	28	16	10	27	30	15	26	13	28	20	23	20	17	16	15	28	22	14	30	26	25	19	18	16	20	11	18	10	24	13	12	18	23	15	12	17	19	13	20	30	13	27	23	21	12	19	12	19	23	20	29	11	29	21	21	12	10	29	11	24	11	27	27	30	18	13	12	30	21	22	24	30	30	17	18	13	24	23	10	25	16	28	27	24	21	13	27	11	20	19	22	27	30	30	11	24	20	13
+The processing time of jobs on different machines of factory 5.
+(Where rows denote machines: 1 to 1 and columns denote jobs: 1 to 250.)
+22	17	26	27	11	13	30	17	11	24	18	27	24	21	23	17	22	28	27	17	24	18	22	16	19	27	21	15	13	22	25	20	19	14	26	19	28	10	20	15	28	28	18	13	30	27	29	28	14	23	15	18	11	30	22	21	16	22	11	28	29	28	20	23	27	19	16	19	15	23	22	14	19	30	11	29	10	17	11	24	17	10	21	27	26	16	30	23	21	17	27	28	17	22	16	28	28	15	16	16	29	20	17	30	29	25	25	15	15	12	12	13	25	24	17	23	14	30	15	10	28	10	15	25	11	19	23	17	28	29	16	10	22	15	18	12	19	23	10	24	25	27	22	28	23	10	28	19	12	21	26	28	10	19	22	23	15	12	14	15	15	28	30	15	16	13	22	19	14	21	24	15	11	28	15	17	30	11	30	29	26	29	27	28	17	17	12	27	12	28	24	29	14	21	16	14	28	16	22	17	21	29	14	10	12	11	14	26	22	17	18	24	18	26	29	28	16	11	26	16	25	15	23	27	23	20	20	26	18	29	30	20	25	13	18	12	26	24	24	30	18	23	25	22	29	13	11	18	21	19
+
+The basic maintenance time of machines in factory 1.
+(Where columns denote machines: 1 to 1.)
+33
+The basic maintenance time of machines in factory 2.
+(Where columns denote machines: 1 to 1.)
+37
+The basic maintenance time of machines in factory 3.
+(Where columns denote machines: 1 to 1.)
+33
+The basic maintenance time of machines in factory 4.
+(Where columns denote machines: 1 to 1.)
+39
+The basic maintenance time of machines in factory 5.
+(Where columns denote machines: 1 to 1.)
+20
+
+The deterioration rate of machines in factory 1.
+(Where columns denote machines: 1 to 1.)
+0.8
+The deterioration rate of machines in factory 2.
+(Where columns denote machines: 1 to 1.)
+0.7
+The deterioration rate of machines in factory 3.
+(Where columns denote machines: 1 to 1.)
+0.6
+The deterioration rate of machines in factory 4.
+(Where columns denote machines: 1 to 1.)
+0.7
+The deterioration rate of machines in factory 5.
+(Where columns denote machines: 1 to 1.)
+0.7
+
+Maximum health value of machines in factory 1.
+(Where columns denote machines: 1 to 1.)
+33.6
+Maximum health value of machines in factory 2.
+(Where columns denote machines: 1 to 1.)
+36
+Maximum health value of machines in factory 3.
+(Where columns denote machines: 1 to 1.)
+24
+Maximum health value of machines in factory 4.
+(Where columns denote machines: 1 to 1.)
+36
+Maximum health value of machines in factory 5.
+(Where columns denote machines: 1 to 1.)
+26.4
+
+Maintenance efficiency of workers on machines of factory 1.
+(Where rows denote workers: 1 to 3 and columns denote machines: 1 to 1.)
+1.2
+1.3
+0.7
+Maintenance efficiency of workers on machines of factory 2.
+(Where rows denote workers: 1 to 3 and columns denote machines: 1 to 1.)
+0.9
+0.9
+1.3
+Maintenance efficiency of workers on machines of factory 3.
+(Where rows denote workers: 1 to 3 and columns denote machines: 1 to 1.)
+1.5
+1.1
+1
+Maintenance efficiency of workers on machines of factory 4.
+(Where rows denote workers: 1 to 3 and columns denote machines: 1 to 1.)
+0.8
+0.8
+1.3
+Maintenance efficiency of workers on machines of factory 5.
+(Where rows denote workers: 1 to 3 and columns denote machines: 1 to 1.)
+0.8
+0.9
+1.3
+
+Unit salary of pay model 1.
+(Where columns denote workers: 1 to 3.)
+1.3	1.4	1.5
+Unit salary of pay model 2.
+(Where columns denote workers: 1 to 3.)
+51	77	75
+
